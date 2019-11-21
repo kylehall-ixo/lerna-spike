@@ -1,3 +1,3 @@
 module.exports = {
-  bar: () => 'bar',
+  bar: text => 'bar' + (text ? ` ${text}` : ''),
 }
